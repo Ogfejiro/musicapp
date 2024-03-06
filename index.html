@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">  
+    <div class="music-player">
+      <div class="hero"><div class="small"><i class="fa-solid fa-left-long"></i></i>
+      </div>
+    
+    <div class="small">
+      <i class="fa-solid fa-bars"></i>
+    </div></div>
+
+    <div class="">
+      <img src="images/girl.jfif" alt="#" id="image">
+
+      <h2 id="songName">Angel_Baby</h2>
+      <p id="artist">Troye_Sivan</p>
+    </div>
+
+    
+  <audio controls id="song">
+    <source src="media/Troye_Sivan_-_Angel_Baby.mp3" type="audio/mp3">
+  </audio>
+
+  <input type="range" value="0" id="progress">
+
+  <div class="back">
+    <div onclick="playBack()">
+      <i class="fa-solid fa-backward"></i>
+    </div>
+
+    <div onclick="playPause()">
+      <i class="fas fa-play-circle" id="control"></i>
+  </div>
+  
+    
+    <div onclick="playNext()">
+      <i class="fa-solid fa-forward" id="next"></i>
+    </div>
+    
+    
+      
+    </div>
+
+    
+  </div>
+    </div>
+
+
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
